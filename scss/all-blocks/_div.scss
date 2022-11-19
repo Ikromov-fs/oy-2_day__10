@@ -1,0 +1,119 @@
+.second{
+    background: #012F34;
+    margin-top: 210px;
+    .second__cantainer{
+        display: flex;
+        padding-top: 140px;
+        gap: 44px;
+    }
+    ul{
+        list-style: none;
+        max-width: 820px;
+        li{
+            span{
+                display: flex;
+                width: 50px;
+                height: 4px;
+                background: #F67E7E;
+                border: 1px solid #F67E7E;
+            }
+
+            h3{
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 48px;
+                color: #fff;
+                padding-bottom: 280px;
+            }
+        }
+    }
+    .second__item__div{
+        display: flex;
+        div{
+            h4{
+                color: #F67E7E;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 28px;
+            }
+            strong{
+                font-style: normal;
+                font-weight: 600;
+                font-size: 15px;
+                line-height: 25px;
+                color: #fff;
+            }
+        }
+    }
+}
+
+@media(max-width: 1082px){
+    .cantainer{
+        max-width: 1002px;
+    }
+    .second__cantainer{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        // text-align: center;
+    }
+    .secont__item{
+        margin-top: -290px;
+        margin-bottom: 100px;   
+    }
+}
+
+@media(max-width: 1068px){
+    .cantainer{
+        max-width: 988px;
+    }
+    .second__cantainer{
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .secont__item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .second__item__div{
+        padding-left: 80px;
+    }
+
+
+}
+
+@media(max-width: 832px){
+    .cantainer{
+        max-width: 752px;
+    }
+    .second__cantainer{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-right: 70px;
+    }
+    .second__item__div{
+        margin-right: 50px;
+    }
+
+}
+@media(max-width: 384px){
+    .cantainer{
+        max-width: 304px;
+    }
+    .second__cantainer{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-right: 90px;
+    }
+    .second__item__div{
+        margin-left: 25px;
+    }
+
+}
